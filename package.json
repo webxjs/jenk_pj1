@@ -40,7 +40,6 @@
       "webpack": "^2.7.0"
     },
     "scripts": {
-      "doc": "grunt jsdoc",
       "dist": "./node_modules/.bin/webpack",
       "dist-watch": "./node_modules/.bin/webpack --watch",
       "karma": "./node_modules/.bin/karma start",
