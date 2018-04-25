@@ -4,8 +4,7 @@ const CleanWebpackPlugin = require('clean-webpack-plugin');
 const glob = require("glob");
 module.exports = {
   entry: {
-    spyjs: glob.sync("./src/**/*.js"),
-    sites: glob.sync("./sites/src/**/*.js")
+    
   },
   devtool: 'inline-source-map',
   plugins: [
